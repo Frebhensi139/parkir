@@ -10,5 +10,8 @@
     <div class="main-container">
         <header>
             <h1>Aplikasi Parkir</h1>
-            <a href="../actions/logout.php">Logout</a>
+            <div class="header-buttons">
+                <a href="../pages/update_password.php" class="btn btn-secondary">Ubah Password</a>
+                <a href="../actions/logout.php" class="btn btn-danger">Logout</a>
+            </div>
         </header>

@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $user = $result->fetch_assoc();
 
         // Verifikasi password
-        if (password_verify($password, $user['password'])) {
+        if ($password === $user['password']) {
             // Jika password cocok, simpan data ke session
             $_SESSION['user_id'] = $user['id_user'];
             $_SESSION['username'] = $username;

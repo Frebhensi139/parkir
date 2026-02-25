@@ -123,7 +123,7 @@ CREATE TABLE `tb_user` (
 
 -- Password untuk semua user di bawah ini adalah 'admin123'
 INSERT INTO `tb_user` (`id_user`, `nama_lengkap`, `username`, `password`, `role`, `status_aktif`) VALUES
-(1, 'Administrator', 'admin', '$2y$10$1Z.t9A8h.L7v.wL2.H8B9e3W.G/N.JgG5.2e9.YgG5.2e9.YgG5.2', 'admin', 1),
-(2, 'Petugas Parkir 1', 'petugas', '$2y$10$1Z.t9A8h.L7v.wL2.H8B9e3W.G/N.JgG5.2e9.YgG5.2e9.YgG5.2', 'petugas', 1);
+(1, 'Administrator', 'admin', 'admin123', 'admin', 1),
+(2, 'Petugas Parkir 1', 'petugas', 'admin123', 'petugas', 1);
 
 COMMIT;
